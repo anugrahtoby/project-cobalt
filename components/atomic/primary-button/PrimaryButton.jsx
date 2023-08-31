@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { use } from 'react'
+import "./PrimaryButton.css"
 
-const PrimaryButton = () => {
+const PrimaryButton = () =>
+{
   return (
-    <div>PrimaryButton</div>
+    <button className="primary-button">
+        <div className="button">Button </div>
+    </button>
   )
 }
 
