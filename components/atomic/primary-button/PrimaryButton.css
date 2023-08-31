@@ -1,0 +1,23 @@
+.primary-button,
+.primary-button * {
+  box-sizing: border-box;
+}
+.primary-button {
+  background: var(--accent-logo-button, #104fe1);
+  border-radius: 6px;
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+.button {
+  color: var(--d-basic-textorlogo, #ffffff);
+  text-align: left;
+  font: 500 12px "Poppins", sans-serif;
+  position: relative;
+}
