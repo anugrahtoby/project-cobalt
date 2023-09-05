@@ -1,0 +1,72 @@
+.dk-course-card-text,
+.dk-course-card-text * {
+  box-sizing: border-box;
+}
+.dk-course-card-text {
+  background: var(--d-secondary-bg, #151a24);
+  border-radius: 25px;
+  display: inline-flex;
+  gap: 71px;
+  overflow: hidden;
+  padding: 20px 50px;
+  position: relative;
+  align-items: center;
+}
+.joy-of-computing-using-python {
+  color: var(--d-basetext, #ffffff);
+  font-family: "Poppins", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    height: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 342.73px;
+}
+.vector-2 {
+    height: 52.17px;
+    position: relative;
+    width: 1px;
+}
+.software-devlopment {
+  color: var(--d-unselected-text, #7d7d7d);
+  font-family: "Poppins", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    height: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 261px;
+}
+.vector-3 {
+    height: 52.17px;
+    position: relative;
+    width: 1px;
+}
+.secondary-button-small {
+  background: var(--button-text, #f2f1ff);
+  align-items: center;
+  border-color: var(--border-color, #104fe1) ;
+  border: 3px solid;
+  border-radius: 12px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  height: 64px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 20px 54px 20px 60px;
+  position: relative;
+}
+.continue {
+  color: var(--accent-logo-button, #104fe1);
+  font-family: "Poppins", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -6px;
+    position: relative;
+    width: fit-content;
+}

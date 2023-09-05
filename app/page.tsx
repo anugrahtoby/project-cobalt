@@ -1,5 +1,6 @@
 import React from 'react';
-import PrimaryButton from '../components/atomic/primary-button/PrimaryButton'
+import { Button } from '@anugrahtoby/cobalt-complib';
+import CourseCard from '../components/composite/course-card/CourseCard'
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
       <div>
         <h1>Cobalt.</h1>
       </div>
-      <PrimaryButton />
+      <CourseCard />
     </div>
   )
 }
