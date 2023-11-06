@@ -1,0 +1,29 @@
+primary-blue : #104FE1
+button-blue-bg: #2C68F3
+button-text: #F2F1FF
+true-button-bg: #0D8C19
+true-button-text: #0A7114
+false-button-bg: #9D0D0D
+false-button-text: #860B0B
+skip-button-bg: #D0B009
+skip-button-text: #C3A608
+
+Dark:
+
+base-text: #FFFFFF
+disabled-text: #7D7D7D
+secondary-bg: #151A24
+base-bg: #0C111A
+window-bg: #080C12
+border-accent: #2B2B2B
+selected-option-highlight: #15273C
+
+Light:
+
+base-text: #000000
+disabled-text: #7D7D7D
+secondary-bg: #E3F4F4
+base-bg: #F8F6F4
+window-bg: #D2E9E9
+border-accent: #D0D0D0
+selected-option-highlight: #BAD3EF
