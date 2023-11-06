@@ -1,14 +1,13 @@
 import React from 'react';
 import { Button } from '@anugrahtoby/cobalt-complib';
 import CourseCard from '../components/composite/course-card/CourseCard'
+import { MCQData } from '../app/mcqtest/MCQData'
+import Quiz from './mcqtest/Quiz';
 
 export default function Home() {
   return (
     <div>
-      <div>
-        <h1>Cobalt.</h1>
-      </div>
-      <CourseCard />
+      <Quiz questions={MCQData.questions} />
     </div>
   )
 }

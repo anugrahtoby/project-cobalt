@@ -4,24 +4,25 @@
 }
 .dk-course-card-text {
   background: var(--d-secondary-bg, #151a24);
-  border-radius: 25px;
+  border-radius: 12px;
   display: inline-flex;
-  gap: 71px;
+  gap: 20px;
   overflow: hidden;
-  padding: 20px 50px;
+  padding: 5px 20px;
   position: relative;
+  width: auto;
   align-items: center;
 }
 .joy-of-computing-using-python {
   color: var(--d-basetext, #ffffff);
   font-family: "Poppins", Helvetica;
-    font-size: 24px;
+    font-size: 12px;
     font-weight: 500;
-    height: 36px;
+    height: auto;
     letter-spacing: 0;
     line-height: normal;
     position: relative;
-    width: 342.73px;
+    width: auto;
 }
 .vector-2 {
     height: 52.17px;
@@ -31,13 +32,13 @@
 .software-devlopment {
   color: var(--d-unselected-text, #7d7d7d);
   font-family: "Poppins", Helvetica;
-    font-size: 24px;
+    font-size: 12px;
     font-weight: 500;
-    height: 36px;
+    height: auto;
     letter-spacing: 0;
     line-height: normal;
     position: relative;
-    width: 261px;
+    width: auto;
 }
 .vector-3 {
     height: 52.17px;
@@ -45,7 +46,7 @@
     width: 1px;
 }
 .secondary-button-small {
-  background: var(--button-text, #f2f1ff);
+  background: var(--button-text, #ffffff);
   align-items: center;
   border-color: var(--border-color, #104fe1) ;
   border: 3px solid;
@@ -53,20 +54,20 @@
   display: inline-flex;
   flex: 0 0 auto;
   gap: 10px;
-  height: 64px;
+  height: 40px;
   justify-content: center;
   overflow: hidden;
-  padding: 20px 54px 20px 60px;
+  padding: 10px 30px 10px 30px;
   position: relative;
 }
 .continue {
   color: var(--accent-logo-button, #104fe1);
   font-family: "Poppins", Helvetica;
-    font-size: 20px;
+    font-size: 12px;
     font-weight: 500;
     letter-spacing: 0;
     line-height: normal;
-    margin-top: -6px;
+    margin-top: 0px;
     position: relative;
     width: fit-content;
 }
