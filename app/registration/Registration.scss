@@ -1,0 +1,185 @@
+.register,
+.register * {
+  box-sizing: border-box;
+}
+.register {
+  background: var(--d-base-bg, #0c111a);
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+}
+.login .image {
+  height: 1080px;
+  width: 960px;
+  background-size: cover;
+  background: url('aayush.png') no-repeat center center;
+  position: relative;
+}
+
+.rectangle-67 {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  width: 960px;
+  height: 1080px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.have-an-account-already-login {
+  text-align: left;
+  font: 400 20px "Poppins", sans-serif;
+  position: absolute;
+  left: 304.01px;
+  top: 970.59px;
+}
+.have-an-account-already-login-span {
+  color: var(--d-basetext, #ffffff);
+  font: 400 20px "Poppins", sans-serif;
+}
+.have-an-account-already-login-span2 {
+  color: var(--selected-textorlogo, #2c68f3);
+  font: 400 20px "Poppins", sans-serif;
+}
+.line-2 {
+  border-style: solid;
+  border-color: #2b2b2b;
+  border-width: 3px 0 0 0;
+  width: 733.03px;
+  height: 0px;
+  position: absolute;
+  left: 960px;
+  top: 906.03px;
+  transform-origin: 0 0;
+  transform: rotate(-90deg) scale(1, 1);
+}
+.dk-text-box {
+  background: var(--d-secondary-bg, #151a24);
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #2b2b2b;
+  border-width: 1px;
+  width: 507.5px;
+  height: 76px;
+  position: absolute;
+  left: 1210.65px;
+  top: 142.87px;
+}
+.dk-text-box2 {
+  background: var(--d-secondary-bg, #151a24);
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #2b2b2b;
+  border-width: 1px;
+  width: 507.5px;
+  height: 76px;
+  position: absolute;
+  left: 1210.65px;
+  top: 624.67px;
+}
+.dk-text-box3 {
+  background: var(--d-secondary-bg, #151a24);
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #2b2b2b;
+  border-width: 1px;
+  width: 507.5px;
+  height: 76px;
+  position: absolute;
+  left: 1210.65px;
+  top: 785.27px;
+}
+.name {
+  color: var(--d-basetext, #ffffff);
+  text-align: left;
+  font: 400 24px "Poppins", sans-serif;
+  position: absolute;
+  left: 1220.19px;
+  top: 92.87px;
+}
+.password {
+  color: var(--d-basetext, #ffffff);
+  text-align: left;
+  font: 400 24px "Poppins", sans-serif;
+  position: absolute;
+  left: 1220.19px;
+  top: 574.67px;
+}
+.confirm-password {
+  color: var(--d-basetext, #ffffff);
+  text-align: left;
+  font: 400 24px "Poppins", sans-serif;
+  position: absolute;
+  left: 1220.19px;
+  top: 735.27px;
+}
+.dk-text-box4 {
+  background: var(--d-secondary-bg, #151a24);
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #2b2b2b;
+  border-width: 1px;
+  width: 507.5px;
+  height: 76px;
+  position: absolute;
+  left: 1210.65px;
+  top: 303.47px;
+}
+.dk-text-box5 {
+  background: var(--d-secondary-bg, #151a24);
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #2b2b2b;
+  border-width: 1px;
+  width: 150.63px;
+  height: 76px;
+  position: absolute;
+  left: 1210.65px;
+  top: 464.07px;
+}
+.e-mail-id {
+  color: var(--d-basetext, #ffffff);
+  text-align: left;
+  font: 400 24px "Poppins", sans-serif;
+  position: absolute;
+  left: 1220.19px;
+  top: 253.47px;
+}
+.gender {
+  color: var(--d-basetext, #ffffff);
+  text-align: left;
+  font: 400 24px "Poppins", sans-serif;
+  position: absolute;
+  left: 1220.19px;
+  top: 414.07px;
+}
+.cobalt {
+  color: var(--d-basetext, #ffffff);
+  text-align: center;
+  font: 600 64px "Poppins", sans-serif;
+  position: absolute;
+  left: 199.51px;
+  top: 509px;
+  width: 531px;
+  height: 126px;
+}
+.primary-button {
+  background: var(--accent-logo-button, #104fe1);
+  border-radius: 12px;
+  padding: 20px 60px 20px 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 1309.41px;
+  top: 911.13px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+.create-account {
+  color: var(--d-basetext, #ffffff);
+  text-align: left;
+  font: 500 24px "Poppins", sans-serif;
+  position: relative;
+}

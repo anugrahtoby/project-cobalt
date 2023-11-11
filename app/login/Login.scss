@@ -1,0 +1,285 @@
+.login {
+    background-color: #0C111A; 
+    height: 1080px;
+    width: 1920px;
+}
+
+  
+  .login .frame {
+    align-items: flex-end;
+    display: inline-flex;
+    position: relative;
+  }
+  
+  .login .div {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    position: relative;
+  }
+  
+    .login .image {
+        height: 1080px;
+        width: 960px;
+        background-size: cover;
+        background: url('aayush.png') no-repeat center center;
+        position: relative;
+    }
+  
+  .login .register-forgot-pass {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 8px;
+    left: 241px;
+    position: absolute;
+    top: 923px;
+  }
+  
+  .login .don-t-have-an {
+    color: var(--design-system-d-basetext);
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .login .text-wrapper {
+    color: #ffffff;
+  }
+  
+  .login .span {
+    color: #2c68f2;
+  }
+  
+  .login .forgot-password {
+    color: var(--design-system-d-basetext);
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .login .text-wrapper-2 {
+    color: var(--design-system-d-basetext);
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 64px;
+    font-weight: 600;
+    left: 200px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 508px;
+    width: 531px;
+  }
+  
+  .login .leftarea {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 63px;
+    left: 1159px;
+    position: absolute;
+    top: 184px;
+  }
+  
+  .login .oauthbuttons {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 28px;
+    position: relative;
+  }
+  
+  .login .google {
+    align-items: flex-start;
+    background-color: var(--design-system-d-secondary-bg);
+    border: 1px solid;
+    border-color: var(--design-system-d-border-accent);
+    border-radius: 12px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    overflow: hidden;
+    padding: 20px 129px;
+    position: relative;
+  }
+  
+  .login .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .login .facebook {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 48px;
+    position: relative;
+  }
+
+  .login .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    left: 350px;
+    top: 800px;
+  }
+  
+  .login .DK-text-box {
+    background-color: var(--design-system-d-secondary-bg);
+    border: 1px solid;
+    border-color: var(--design-system-d-border-accent);
+    border-radius: 12px;
+    height: 76px;
+    position: relative;
+    width: 433px;
+  }
+  
+
+  
+  .login .orline {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 15px;
+    position: relative;
+  }
+  
+  .login .img {
+    height: 2px;
+    position: relative;
+    width: 276.35px;
+  }
+  
+  .login .text-wrapper-5 {
+    color: var(--design-system-d-disabled-text);
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .login .emailpass {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 35px;
+    position: relative;
+  }
+  
+  .login .div-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 14px;
+    position: relative;
+  }
+  
+  .login .text-wrapper-6 {
+    color: var(--design-system-d-basetext);
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .login .DK-text-box-2 {
+    background-color: var(--design-system-d-secondary-bg);
+    border: 1px solid;
+    border-color: var(--design-system-d-border-accent);
+    border-radius: 12px;
+    height: 76px;
+    position: relative;
+    width: 507.5px;
+  }
+  
+  .login .loginbutton {
+    all: unset;
+    align-items: center;
+    background-color: var(--design-system-accent-logo-button);
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px #00000014;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 20px 60px;
+    position: relative;
+  }
+  
+  .login .text-wrapper-7 {
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .login .line {
+    height: 733px;
+    left: 957px;
+    position: absolute;
+    top: 173px;
+    width:3px;
+
+  }
+
+.login .text-wrapper,
+.login .text-wrapper-2,
+.login .text-wrapper-3,
+.login .text-wrapper-4,
+.login .text-wrapper-5,
+.login .text-wrapper-6,
+.login .text-wrapper-7 {
+    color: #ffffff; 
+}
+
+.login .DK-text-box,
+.login .DK-text-box-2,
+.login .forgot-password,
+.login .google
+{
+    background-color: #151A24; 
+}
+
+.login .loginbutton
+{
+  background-color: #2c68f2;
+}

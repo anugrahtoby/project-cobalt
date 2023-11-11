@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@anugrahtoby/cobalt-complib": "^1.0.3",
     "@monaco-editor/react": "^4.6.0",
     "@types/node": "20.5.1",
     "@types/react": "18.2.20",
