@@ -1,11 +1,13 @@
 import React, { use } from 'react'
-import "./PrimaryButton.css"
+import "./PrimaryButton.scss"
 
-const PrimaryButton = () =>
+const PrimaryButton = (props) =>
 {
   return (
-    <button className="primary-button">
-        <div className="button">Button </div>
+    <button className="primary-button" onClick={props.onClick} style={props.button}>
+        <div style={props.text}>
+          {props.value}
+        </div>
     </button>
   )
 }
