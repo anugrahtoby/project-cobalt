@@ -20,19 +20,38 @@ body{
     flex-direction: row;
     height: 80vh;
     margin: 40px;
+    gap:3vw;
 }
 .question{
     width: 45vw;
     height: 90vh;
     background-color: $secondary-bg;
+    padding: 2vw 5vh;
 }
 
-.workarea{
+.leftarea{
     width: 50vw;
-    height: 50vh;
+    height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
+}
+
+
+.language{
+    background-color: $secondary-bg;
+    padding: 10px 10px 10px 10px;
+    border-radius: 12px;
+    border: 2px solid;
+    border-color: $border-accent;
+}
+
+.console-head{
+    width: 45vw;
+    height: 7.5vh;
+    background-color: $secondary-bg;
+    border-radius: 12px 12px 0px 0px;
+    padding: 10px 10px 10px 10px;
 }
 
 .console{
@@ -41,6 +60,6 @@ body{
 }
 
 .editor{
-    height: 60vh;
-    width: 40vw;
+    height: 50vh;
+    width: 45vw;
 }
