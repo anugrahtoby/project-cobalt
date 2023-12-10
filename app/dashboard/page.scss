@@ -9,8 +9,8 @@ $base-bg: #0C111A;
 $base-text: #FFFFFF;
 $secondary-bg: #151A24;
 
-.body{
-    background: green;
+body{
+    background: $base-bg;
 }
 
 .dashboard{
@@ -33,7 +33,7 @@ $secondary-bg: #151A24;
             gap: 7vw;
             padding: 0vh 3vw 2vh 0vw;
         
-            .right{
+            .dash-right{
                 display: flex;
                 flex-direction: column;
                 gap: 10vh;

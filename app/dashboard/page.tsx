@@ -12,7 +12,7 @@ export default function Home() {
         <div className='dash-title'>Cobalt.</div>
         <div className='cards'>
           <ProfileCard />
-          <div className='right'>
+          <div className='dash-right'>
             <div className='courses-section'>
               <div className='courses-title'>
                 Courses

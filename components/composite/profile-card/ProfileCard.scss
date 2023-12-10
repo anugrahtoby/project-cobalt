@@ -13,11 +13,11 @@ $window-bg: #080C12;
 .layout{
     font: 500 15px "Poppins-Medium", sans-serif;
     background-color: $secondary-bg;
-    padding: 20px;
+    padding: 3vh 2vw 3vh 2vw;
     display: flex;
     flex-direction: column;
     gap: 7vh;
-    width: 21vw;
+    width: auto;
     height: auto;
     align-items: center;
     border-radius: 25px;
@@ -31,8 +31,8 @@ $window-bg: #080C12;
         .image{
             background-color: $border-accent;
             border-radius: 50%;
-            width: 175px;
-            height: 175px;
+            width: 9vw;
+            height: 16vh;
         }
         .pinfo{
             font-size: 20px;
@@ -55,17 +55,19 @@ $window-bg: #080C12;
         font-size: 18px;
         font-weight: 500;
         .coursesr{
-            width: 18vw;
+            min-width: 16vw;
+            width: auto;
             align-items: left;
             background-color: $window-bg;
-            padding: 12px;
+            padding: 1vw;
             border-radius: 12px;
         }
         .testst{
-            width: 18vw;
+            min-width: 16vw;
+            width: auto;
             align-items: left;
             background-color: $window-bg;
-            padding: 12px;
+            padding: 1vw;
             border-radius: 12px;
         }
     }
