@@ -2,18 +2,16 @@
 import React from 'react'
 import Compiler from './Compiler'
 import"./page.scss"
-import { Dropdown } from 'primereact/dropdown';
 import { useEffect, useState } from "react";
-
-
 
 
 const page = () => {
 
   return (
     <div className="layout">
-      <div className="question">
-        Question 1<br /> <br /> lala
+      <div className="questiontitle">
+        Question 1
+        <div className="questioncontent">lala</div>
       </div>
       <div className="leftarea">
         <div className='editor'>

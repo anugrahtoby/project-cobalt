@@ -17,11 +17,11 @@ $secondary-bg: #151A24;
   background: $secondary-bg;
   border-radius: 12px;
   display: inline-flex;
-  gap: 2.9vw;
+  gap: 10vw;
   overflow: hidden;
-  padding: 0.5vh 2vw;
-  position: relative;
-  width: 56vw;
+  padding: 0.5vh 1vw 0.5vh 1vw;
+  min-width: 52vw;
+  width: auto;
   height: 8vh;
   align-items: center;
   font: 500 18px "Poppins-Medium", sans-serif;
@@ -32,11 +32,6 @@ $secondary-bg: #151A24;
     line-height: normal;
     position: relative;
 }
-.vector-2 {
-    height: 52.17px;
-    position: relative;
-    width: 1px;
-}
 .category {
   color: $disabled-text;
     height: auto;
@@ -44,19 +39,6 @@ $secondary-bg: #151A24;
     line-height: normal;
     position: relative;
     width: auto;
-}
-.vector-3 {
-    height: 52.17px;
-    position: relative;
-    width: 1px;
-}
-.continue {
-  color: $button-blue-bg;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: 0px;
-    position: relative;
-    width: fit-content;
 }
 
 .button{
