@@ -1,0 +1,17 @@
+$border-accent: #2B2B2B;
+$bg: #ffffff;
+$bg-border-accent: #e7e8e9;
+$disabled-text: #7D7D7D;
+$foreground: #2d264b;
+$primary-blue: #104fe1;
+$button-blue-bg: #2C68F3;
+$base-bg: #0C111A;
+$base-text: #FFFFFF;
+$secondary-bg: #151A24;
+
+.restrictedtestinfo-layout{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    font: 500 15px "Poppins-Semibold", sans-serif;
+}
